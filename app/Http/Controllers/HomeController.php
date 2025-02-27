@@ -33,9 +33,9 @@ class HomeController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show($id=0)
     {
-        return view('homee.gestion');
+        return view('homee.gestion',['id'=>$id=0]);
     }
 
     /**

@@ -45,7 +45,7 @@
     <!-- Botón de Confirmación con alerta -->
     <button type="button" onClick="alert('✅ Tu reserva ha sido confirmada con éxito.')">Confirmar Reserva</button>
     <button><a href="{{ route('reservas.index') }}">Regresar</a></button>
-    <button><a href="{{ route('homee.index') }}">Verificar Disponibilidad</a></button>
+    <button><a href="{{ route('homee.show',0) }}">Verificar Disponibilidad</a></button>
 
 </form>
     <footer>
