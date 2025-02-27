@@ -1,0 +1,132 @@
+body {
+    font-family:'Times New Roman', Times, serif; 
+    background: linear-gradient(135deg, #74ebd5, #acb6e5); 
+    margin: 0; 
+    padding:0; 
+    display:flex; 
+    flex-direction:column; 
+    min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la pantalla */
+}
+
+h2, h3 {
+    text-align: center;
+    color: #435e6c; 
+    font-weight: 600; 
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center; 
+    color: #0c1c23; 
+    font-weight: 600; 
+    font-size: 35px;
+}
+
+
+button, a { /*Confirmar y cancelar*/
+    background-color: #6ab0de; 
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    font-size: 14px; 
+    cursor: pointer;
+    border-radius: 5px; 
+    display: block; 
+    width: auto; 
+    margin: 10px auto;
+    text-align: center;
+}
+
+
+button:hover, a:hover {
+    background-color: #116587; 
+    transform: scale(1.05); 
+}
+
+
+table {
+    width: 90%; 
+    margin: 20px auto; 
+    border-collapse: collapse; /* Junta los bordes de las celdas */
+    background-color: rgb(255, 255, 255); 
+    border-radius: 10px; 
+    overflow: hidden; /* Evita que sobresalgan elementos internos */
+    box-shadow: 0 5px 15px rgba(30, 27, 27, 0.1); 
+}
+
+/* Celdas de la tabla */
+td, th {
+    padding: 20px; 
+    text-align: left; 
+    border-bottom: 1px solid #ddd; 
+    max-width: 600px;
+    white-space: nowrap;
+}
+
+/* Cabecera de la tabla */
+th {
+    background-color: #1969b4; 
+    color: rgb(238, 232, 232); 
+}
+
+
+form {
+    max-width: 600px; 
+    margin: 30px auto; 
+    padding: 25px; 
+    background-color: rgb(249, 248, 248); 
+    border-radius: 10px; 
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); 
+}
+
+
+input[type="text"], input[type="password"], input[type="date"], 
+input[type="time"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 10px; 
+    margin: 8px 0 20px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 6px;
+    font-size: 17px; 
+    box-sizing: border-box;
+}
+
+
+button[type="button"] {
+    width: 50%; 
+    font-size: 15px; 
+    margin-top: 10px; 
+}
+
+
+.contenedor-tabla {
+    margin: 20px auto; 
+    padding: 20px;
+    width: 50%; 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 10px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); 
+}
+
+/*enlaces*/
+button a {
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    width: 100%;
+    margin-bottom:auto;
+    margin-top:auto;
+    display:inline;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: white; 
+    background-color: #303030; 
+    padding: 10px; 
+    margin-top: auto; 
+    width: 100%; 
+}
+
+
+
