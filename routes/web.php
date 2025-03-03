@@ -9,5 +9,5 @@ Route::get('/', function () {
 });
 
 Route::resource('/reservas', ReservasController::class);
-Route::resource('/homee', HomeController::class);
+Route::resource('/usuario', HomeController::class);
 

@@ -29,7 +29,7 @@
     </div>
 
     <br>
-    <button><a href="{{ route('homee.index') }}">Regresar al Home</a></button>
+    <button><a href="{{ route('usuario.index') }}">Regresar al Home</a></button>
 
     <footer>
         <p>© 2025 Universidad SS. Todos los derechos reservados.</p>

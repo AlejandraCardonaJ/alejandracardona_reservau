@@ -11,7 +11,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('homee.homee');
+        return view('usuario.index');
     }
 
     /**
@@ -35,7 +35,7 @@ class HomeController extends Controller
      */
     public function show($id=0)
     {
-        return view('homee.gestion',['id'=>$id=0]);
+        return view('usuario.gestion',['id'=>$id=0]);
     }
 
     /**

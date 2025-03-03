@@ -45,7 +45,10 @@
     <!-- Botón de Confirmación con alerta -->
     <button type="button" onClick="alert('✅ Tu reserva ha sido confirmada con éxito.')">Confirmar Reserva</button>
     <button><a href="{{ route('reservas.index') }}">Regresar</a></button>
-    <button><a href="{{ route('homee.show',0) }}">Verificar Disponibilidad</a></button>
+    <button><a href="{{ route('usuario.show',0) }}">Verificar Disponibilidad</a></button>
+    <label>
+        <input type="checkbox" id="notificacionesCorreo"> Deseo recibir notificaciones por correo
+    </label>
 
 </form>
     <footer>
